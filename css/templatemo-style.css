@@ -89,10 +89,10 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #about, #portfolio, #portfolio_E, #contact
     {
-        padding-top: 100px;
-        padding-bottom: 120px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 /* end all section */
 
@@ -264,7 +264,6 @@ h1,h2,h3,h4,h5
 		font-size:25px;
         color: #333;
     }
-
 #work .media
     {
       margin-top: 30px;
@@ -586,7 +585,7 @@ img {vertical-align: middle;}
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 800px;
+    max-width: 700px;
     position: relative;
     margin: auto;
     
@@ -661,7 +660,7 @@ img {vertical-align: middle;}
   }
   
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #cbedef;
   }
   
   /* Fading animation */
@@ -678,4 +677,11 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+}
+video{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+picture{
+    padding-top: 25px;
 }
