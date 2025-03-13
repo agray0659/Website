@@ -684,4 +684,8 @@ video{
 }
 picture{
     padding-top: 25px;
+    padding-bottom: 25px;
+}
+iframe{
+    padding-top: 25px;
 }
